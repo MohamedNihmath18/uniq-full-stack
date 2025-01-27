@@ -6,6 +6,8 @@ import { ShopContext } from '../context/ShopContext'
 import { data } from 'react-router-dom'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+
 import { backendUrl, currency } from '../../../admin/src/App'
 
 const PlaceOrder = () => {
