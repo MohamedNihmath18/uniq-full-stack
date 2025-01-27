@@ -14,7 +14,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-dom','react-toastify'],
+      external: ['react-router-dom'],
     },
   },
 });
