@@ -6,11 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       'react-router-dom': 'react-router-dom',
-    },
-  },
-  build: {
-    rollupOptions: {
-      external: ['react-toastify'], // Add this line
+      'react-toastify': 'react-toastify',
     },
   },
 });
