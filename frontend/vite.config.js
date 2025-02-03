@@ -8,4 +8,9 @@ export default defineConfig({
       'react-router-dom': 'react-router-dom',
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['react-toastify'], // Add this line
+    },
+  },
 });
